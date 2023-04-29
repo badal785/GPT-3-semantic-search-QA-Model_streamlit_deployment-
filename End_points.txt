@@ -1,0 +1,15 @@
+To search for documents:
+
+URL: http://localhost:5001/search
+Method: POST
+Body (JSON): {"query": "your query here"}
+To insert documents:
+
+URL: http://localhost:5002/insert
+Method: POST
+Body (JSON): {"docs": ["doc1", "doc2", ...]}
+To ask a question:
+
+URL: http://localhost:5001/answer
+Method: POST
+Body (JSON): {"question": "your question here"}
